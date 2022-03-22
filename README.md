@@ -7,6 +7,11 @@ Your task is to figure out how this code works.
 * Keep coming up with new inputs until you're confident that you know how the function works.
 * Write a summary of what the function does.
 
+*SUMMARY*
+1) The function takes an input of a person and a pet name. 
+2) The function iterates on every item in the array of `person` and checks the `dog.name` against the entered `petName`.
+3) If there is a match, the function returns `dog` object. 
+
 ```js
 function (person, petName){
   for (let dog of person.dogs){
@@ -21,14 +26,14 @@ Inputs and outputs should be valid JavaScript values!
 
 | Input | Output |
 | ----- | ------ |
-|       |        | 
-|       |        | 
-|       |        | 
+| "Kristofer", "Winnie" | {name: "Winnie",...} | 
+| "Alycia", "Remi"      | {name: "Remi",...}   |  
+| "Joseph", "Aubrey"    | {name: "Aubrey",...} | 
 
 <table>
   <tr>
     <th>What does this program do?</th>
-    <td></td>
+    <td>The program matches the owner with their pet and retrieves the pet info.</td>
   </tr>
 </table>
 
