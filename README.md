@@ -26,9 +26,9 @@ Inputs and outputs should be valid JavaScript values!
 
 | Input | Output |
 | ----- | ------ |
-| "Kristofer", "Winnie" | {name: "Winnie",...} | 
-| "Alycia", "Remi"      | {name: "Remi",...}   |  
-| "Joseph", "Aubrey"    | {name: "Aubrey",...} | 
+| Kristofer, "Winnie" | {name: "Winnie",...} | 
+| Alycia, "Remi"      | {name: "Remi",...}   |  
+| Joseph, "Aubrey"    | {name: "Aubrey",...} | 
 
 <table>
   <tr>
