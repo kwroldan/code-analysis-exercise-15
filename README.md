@@ -26,9 +26,9 @@ Inputs and outputs should be valid JavaScript values!
 
 | Input | Output |
 | ----- | ------ |
-| person.Kristofer{dog: "Winnie"}, "Winnie" | {name: "Winnie",...} | 
-| person.Alycia{dog: "Remi"}, "Remi"      | {name: "Remi",...}   |  
-| person.Joseph{dog: "Aubrey"}, "Aubrey"    | {name: "Aubrey",...} | 
+| { dogs: "Winnie"}, "Winnie" | { name: "Winnie" } | 
+| { dogs: "Remi" }, "Remi"      | { name: "Remi" }   |  
+| { dogs: "Aubrey"}, "Aubrey"    | { name: "Aubrey" } | 
 
 <table>
   <tr>
