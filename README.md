@@ -26,9 +26,9 @@ Inputs and outputs should be valid JavaScript values!
 
 | Input | Output |
 | ----- | ------ |
-| { dogs: ["Winnie", "Rhulk"] }, "Winnie" | { name: "Winnie" } | 
-| { dogs: ["Remi", "Moose"] }, "Remi"      | { name: "Remi" }   |  
-| { dogs: ["Aubrey", "Max"] }, "Aubrey"    | { name: "Aubrey" } | 
+| { dogs: [{ name:"Winnie" }, { name:"Rhulk" }] }, "Winnie" | { name: "Winnie" } | 
+| { dogs: [{ name:"Remi" }, { name:"Moose" }] }, "Remi"      | { name: "Remi" }   |  
+| { dogs: [{ name:"Aubrey" }, { name:"Max" }] }, "Aubrey"    | { name: "Aubrey" } | 
 
 <table>
   <tr>
